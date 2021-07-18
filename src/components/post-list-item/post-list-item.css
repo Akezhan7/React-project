@@ -1,0 +1,23 @@
+.app-list-item {
+    margin: 5px 0;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn-sm {
+    background: white;
+    border: none;
+}
+.btn-star {
+    color: #f7cf05f8;
+    transition: all 0.4s;
+}
+.btn-trash {
+    color:#d60d32f8;
+}
+.fa-heart {
+    color:#d60d32f8;
+    font-size: 17px;
+    margin-top: 2px;
+    display: none;
+}

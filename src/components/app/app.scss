@@ -1,0 +1,45 @@
+@import '../app-header/app-header.css';
+@import '../search-panel/search-panel.css';
+@import '../post-status-filter/post-status-filter.css';
+@import '../post-list-item/post-list-item.css';
+@import '../post-list/post-list.css';
+
+body {
+    background:#e6f6faf8;
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+.search-group {
+    margin-bottom: 50px;
+}
+.hidden {
+    display: none;
+}
+.active {
+    background: #21a6c4f8;
+    border: none;
+    color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 0 10px;
+}
+.important {
+    color: #f7cf05f8;
+    transition: 0.4s;
+}
+.like .fa-heart {
+    display: block;
+    transition: 0.4s;
+}
+.important .btn-star {
+    color: silver;
+}
+.list-group-item {
+    background:white;
+    padding: 10px;
+    border: 1px solid silver;
+}
